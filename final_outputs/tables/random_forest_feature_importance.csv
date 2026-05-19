@@ -1,0 +1,170 @@
+feature,importance
+YearsCodePro_num,0.23166015549478502
+WorkExp_num,0.10134532468910142
+Rent Index,0.08411724195772814
+Local Purchasing Power Index,0.07928835554767417
+Cost of Living Plus Rent Index,0.07625110228220007
+Cost of Living Index,0.07523240958953276
+x0_18-24 years old,0.06755799245997142
+x5_United States,0.06641023811037915
+x1_Remote,0.03367294943426699
+x1_In-person,0.02319932296455232
+x0_35-44 years old,0.022756990572606918
+x5_Italy,0.01539894458677636
+x2_Master,0.014912165874001739
+x0_25-34 years old,0.011863212029028352
+x0_45-54 years old,0.009354487217278917
+x5_France,0.007106136850475902
+"x4_Developer, full-stack",0.0066325946710141335
+x4_Engineering manager,0.005914946868781587
+JobSat_num,0.005811269730485681
+"x1_Hybrid (some remote, some in-person)",0.00566318574973925
+"x3_Employed, full-time",0.005652727283955731
+"x4_Developer, back-end",0.0046448260946415736
+x0_55-64 years old,0.004440381254652332
+"x3_Student, full-time",0.003719038244029393
+"x3_Employed, part-time",0.0035108288708959783
+x2_Bachelor,0.0033334914850576113
+x5_United Kingdom,0.002911088843536832
+x5_Poland,0.002668979353915369
+x2_School or less,0.0024831451029538264
+x2_Some college,0.0024310742319849487
+x5_Ukraine,0.0023818131400838833
+x5_Brazil,0.002276181273856721
+x5_Switzerland,0.0022502052591066943
+"x3_Independent contractor, freelancer, or self-employed",0.002095099135971096
+x5_Netherlands,0.0016695170256697007
+x5_Germany,0.0013080453535401896
+"x4_Developer, front-end",0.0009211524258301245
+"x4_Developer, desktop or enterprise applications",0.000916153715392053
+x2_Professional/Doctorate,0.000816012304241739
+x5_Spain,0.0005314118025029251
+"x3_Student, part-time",0.0005027601853314908
+x5_Canada,0.0004948713932135108
+x5_India,0.0004723940478519813
+"x4_Developer, embedded applications or devices",0.00034973609013844246
+"x4_Developer, mobile",0.00032382534669031016
+x5_Denmark,0.0003101464316889066
+x5_Norway,0.0002524885584516091
+x5_Greece,0.00023006776259064512
+x5_Australia,0.0001948196612226493
+"x4_Senior Executive (C-Suite, VP, etc.)",0.0001715048859989736
+x5_South Africa,0.00017145122287183374
+x5_Turkey,0.0001658188621029469
+x2_Associate,0.0001543663068571101
+x2_Other,0.000143458460847782
+x4_Cloud infrastructure engineer,0.00012371420134020005
+x4_Other (please specify):,0.00010003656706771444
+x4_Data engineer,9.296550632846844e-05
+x5_Sweden,9.000307873578825e-05
+x5_Portugal,7.555745330048338e-05
+x4_Research & Development role,7.437657105176266e-05
+x5_Mexico,7.387349284889317e-05
+x5_Belgium,7.03758754445569e-05
+x5_Czech Republic,5.159217405028496e-05
+x4_Data scientist or machine learning specialist,4.866661406913377e-05
+x5_Russia,4.826522513659814e-05
+x5_Austria,4.627140283129497e-05
+"x4_Developer, AI",3.8625072452420525e-05
+x4_DevOps specialist,1.776866728527098e-05
+x0_65 years or older,0.0
+x0_Under 18 years old,0.0
+"x3_Not employed, but looking for work",0.0
+x4_Academic researcher,0.0
+x4_Blockchain,0.0
+x4_Developer Advocate,0.0
+x4_Designer,0.0
+x4_Database administrator,0.0
+x4_Data or business analyst,0.0
+x3_Retired,0.0
+x5_Belarus,0.0
+x4_System administrator,0.0
+x5_Albania,0.0
+x4_Project manager,0.0
+x5_Chile,0.0
+x5_Colombia,0.0
+x5_Costa Rica,0.0
+x5_China,0.0
+x5_Bulgaria,0.0
+x5_Bosnia And Herzegovina,0.0
+x5_Bolivia,0.0
+x5_Dominican Republic,0.0
+x5_Bangladesh,0.0
+x5_Bahrain,0.0
+x5_Armenia,0.0
+x5_Algeria,0.0
+x5_Argentina,0.0
+x4_Scientist,0.0
+x4_Student,0.0
+x4_Product manager,0.0
+x4_Hardware Engineer,0.0
+x4_Educator,0.0
+"x4_Engineer, site reliability",0.0
+x4_Security professional,0.0
+"x4_Developer, QA or test",0.0
+x4_Developer Experience,0.0
+"x4_Developer, game or graphics",0.0
+x5_Iran,0.0
+x5_Indonesia,0.0
+x5_Iceland,0.0
+x5_Hungary,0.0
+x5_Guatemala,0.0
+x5_Hong Kong (China),0.0
+x5_Georgia,0.0
+x5_Ghana,0.0
+x5_Egypt,0.0
+x5_Ecuador,0.0
+x5_Estonia,0.0
+x5_Finland,0.0
+x5_Cuba,0.0
+x5_Croatia,0.0
+x5_Cyprus,0.0
+x5_Jamaica,0.0
+x5_Malaysia,0.0
+x5_Luxembourg,0.0
+x5_Lithuania,0.0
+x5_Mauritius,0.0
+x5_Moldova,0.0
+x5_Iraq,0.0
+x5_Ireland,0.0
+x5_Israel,0.0
+x5_Kenya,0.0
+x5_Kyrgyzstan,0.0
+x5_Latvia,0.0
+x5_Lebanon,0.0
+x5_Libya,0.0
+x5_Japan,0.0
+x5_Jordan,0.0
+x5_Kazakhstan,0.0
+x5_Peru,0.0
+x5_Paraguay,0.0
+x5_Panama,0.0
+x5_Pakistan,0.0
+x5_North Macedonia,0.0
+x5_Nigeria,0.0
+x5_New Zealand,0.0
+x5_Nepal,0.0
+x5_Malta,0.0
+x5_Morocco,0.0
+x5_Montenegro,0.0
+x5_Romania,0.0
+x5_Singapore,0.0
+x5_Serbia,0.0
+x5_Saudi Arabia,0.0
+x5_Philippines,0.0
+x5_Sri Lanka,0.0
+x5_Slovakia,0.0
+x5_Slovenia,0.0
+x5_South Korea,0.0
+x5_Thailand,0.0
+x5_Tanzania,0.0
+x5_Syria,0.0
+x5_Taiwan,0.0
+x5_Trinidad And Tobago,0.0
+x5_Tunisia,0.0
+x5_United Arab Emirates,0.0
+x5_Uruguay,0.0
+x5_Uzbekistan,0.0
+x5_Venezuela,0.0
+x5_Vietnam,0.0
+x5_Zimbabwe,0.0

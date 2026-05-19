@@ -1,0 +1,44 @@
+DSA210 Final Project Summary - Javid Ramazanli
+Project: Purchasing-power-adjusted developer salaries
+
+Data
+- Original Stack Overflow rows: 65437
+- Professional developers with positive salary: 21549
+- Rows matched to cost-of-living data: 21405
+- Match rate: 99.33%
+- Median raw salary: 66066.00
+- Median adjusted salary: 169038.22
+
+Hypothesis tests
+- Adjusted salary differs across work settings: Kruskal-Wallis, statistic=1305.1201, p=3.952e-284, decision=reject H0
+- Adjusted salary differs across experience groups: Kruskal-Wallis, statistic=5505.0815, p=0, decision=reject H0
+- Adjusted salary differs across education groups: Kruskal-Wallis, statistic=580.8355, p=3.171e-122, decision=reject H0
+- Job satisfaction and adjusted salary are related: Spearman correlation, statistic=0.1259, p=4.906e-54, decision=reject H0
+- Work setting and high/low adjusted salary are associated: Chi-square independence, statistic=1176.2783, p=3.753e-256, decision=reject H0
+
+Machine learning
+- ML rows used: 5000
+- Train rows: 3750
+- Test rows: 1250
+- Target median adjusted salary: 167844.52
+
+Model metrics sorted by F1:
+              model  accuracy  precision   recall       f1
+      Random Forest    0.7560   0.733728 0.798712 0.764842
+Logistic Regression    0.7584   0.755200 0.760064 0.757624
+      Decision Tree    0.7376   0.707801 0.803543 0.752640
+                kNN    0.7264   0.708520 0.763285 0.734884
+           Baseline    0.5032   0.000000 0.000000 0.000000
+
+Top Random Forest features:
+                       feature  importance
+              YearsCodePro_num    0.231660
+                   WorkExp_num    0.101345
+                    Rent Index    0.084117
+  Local Purchasing Power Index    0.079288
+Cost of Living Plus Rent Index    0.076251
+          Cost of Living Index    0.075232
+            x0_18-24 years old    0.067558
+              x5_United States    0.066410
+                     x1_Remote    0.033673
+                  x1_In-person    0.023199

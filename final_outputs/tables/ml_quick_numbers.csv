@@ -1,0 +1,2 @@
+ml_rows_used,train_rows,test_rows,target_median_adjusted_salary,target_low_count,target_high_count
+5000,3750,1250,167844.52296819785,2518,2482

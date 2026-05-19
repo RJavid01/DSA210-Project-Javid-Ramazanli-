@@ -1,0 +1,6 @@
+test,question,statistic,p_value,effect_or_note,decision_alpha_0.05
+Kruskal-Wallis,Adjusted salary differs across work settings,1305.1200762962246,3.9516304353739633e-284,epsilon_sq=0.0609,reject H0
+Kruskal-Wallis,Adjusted salary differs across experience groups,5505.081501445988,0.0,epsilon_sq=0.2577,reject H0
+Kruskal-Wallis,Adjusted salary differs across education groups,580.8355038133363,3.170881597636456e-122,epsilon_sq=0.0269,reject H0
+Spearman correlation,Job satisfaction and adjusted salary are related,0.12587007344410495,4.905516048214253e-54,rho value,reject H0
+Chi-square independence,Work setting and high/low adjusted salary are associated,1176.278341032925,3.753216816548536e-256,dof=2,reject H0

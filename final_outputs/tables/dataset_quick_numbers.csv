@@ -1,0 +1,2 @@
+original_rows,professional_positive_salary_rows,matched_rows,unmatched_rows,match_rate,job_sat_nonmissing,adjusted_salary_median,adjusted_salary_mean,raw_salary_median,raw_salary_mean
+65437,21549,21405,144,0.9933175553389948,15003,169038.21656050955,216021.66378106005,66066.0,86282.43335669236
