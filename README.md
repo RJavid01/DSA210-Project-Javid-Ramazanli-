@@ -1,52 +1,72 @@
 # DSA210 Project - Javid Ramazanli
 
-This repository is for my DSA210 term project.
+This is my DSA210 term project.
 
-The project uses the Stack Overflow Developer Survey 2024 and a country-level cost of living dataset. My main idea is to look at developer salaries after adjusting them by cost of living, instead of only looking at raw yearly salary.
+The project uses the Stack Overflow Developer Survey 2024 together with a country-level cost-of-living dataset. I wanted to check developer salaries in a more realistic way, because raw salary alone can be misleading when countries have very different living costs.
 
-## Milestone 2
+## Main idea
 
-For this milestone, I added machine learning methods to the project.
+I first clean the survey data, then merge it with the cost-of-living data by country. After that, I create an adjusted salary variable. This is the main variable I use in the project.
 
-The task I used is a simple classification task:
+The project includes:
 
-Can the model predict whether a developer has a high purchasing-power-adjusted salary or not?
+- data cleaning
+- exploratory data analysis
+- hypothesis tests
+- machine learning models
+- final plots and result tables
 
-I created the target like this:
+## Data files needed
 
-- `High_Adjusted_Salary = 1` means the adjusted salary is above or equal to the median
-- `High_Adjusted_Salary = 0` means the adjusted salary is below the median
+The code expects these files to be in this folder or one folder above it:
 
-I used this target because it fits the classification models we learned in class.
+- `survey_results_public.csv` or `stack-overflow-developer-survey-2024.zip`
+- `Cost_of_Living_Index_by_Country_2024.csv`
 
-## Models I used
+The Stack Overflow survey is the main dataset. The cost-of-living file is the extra dataset I use to enrich it.
 
-- Baseline classifier
-- Logistic Regression
-- k-Nearest Neighbors
-- Decision Tree
-- Random Forest
+## Final code file
 
-I used train/test split and evaluated the models on the test data. The code prints accuracy, precision, recall, F1-score, and confusion matrix.
+The final script is:
 
-## Main files
-
-- `dsa210_stage1_analysis.py` - milestone 1 code for data cleaning, EDA, and hypothesis tests
-- `dsa210_milestone2_ml.py` - milestone 2 code for machine learning
-- `stack-overflow-developer-survey-2024.zip` - Stack Overflow Developer Survey 2024 dataset
-- `Cost_of_Living_Index_by_Country_2024.csv` - cost of living dataset
-- `requirements.txt` - Python packages used in the project
-
-## How to run
-
-Keep the code file and the two dataset files in the same folder. Then run:
-
-```bash
-python dsa210_milestone2_ml.py
+```text
+ dsa210_final_project.py
 ```
 
-The code creates a folder called `milestone2_outputs`. The model results and plots are saved there.
+When it runs, it creates the folder:
 
-## Small note
+```text
+final_outputs/
+```
 
-These models are for prediction. I do not claim that a feature causes higher salary. I only interpret the results as patterns/associations in this dataset.
+Inside that folder, it saves the cleaned dataset, plots, hypothesis test results, model metrics, confusion matrices, and random forest feature importance.
+
+## How to run the project
+
+Install the packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then run:
+
+```bash
+python dsa210_final_project.py
+```
+
+## Models used
+
+For the machine learning part, I used models that match the course topics:
+
+- baseline classifier
+- logistic regression
+- kNN
+- decision tree
+- random forest
+
+The target is whether a developer is in the high or low adjusted salary group compared with the median.
+
+## Note
+
+This project uses observational survey data. Because of that, I treat the results as associations and predictions. I do not claim that one variable directly causes higher salary.
